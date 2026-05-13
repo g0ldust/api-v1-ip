@@ -22,8 +22,8 @@ public class Vehiculo {
     @Column(nullable = false, length = 100, unique = false)
     private Integer id_modelo;
 
-    @Column(nullable = false, unique = false)
-    private Date anio;
+    @Column(nullable = false, length = 4, unique = false)
+    private Integer anio;
 
     @Column(nullable = false, length = 100, unique = false)
     private String color;
